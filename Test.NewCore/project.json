@@ -1,0 +1,22 @@
+﻿{
+  "supports": {
+    "net46.app": {},
+    "uwp.10.0.app": {}
+  },
+  "dependencies": {
+    "Microsoft.NETCore": "5.0.0",
+    "Microsoft.NETCore.Portable.Compatibility": "1.0.0",
+    "MvvmCross": "4.0.0-beta3",
+    "MvvmCross.HotTuna.CrossCore": "4.0.0-beta3",
+    "MvvmCross.HotTuna.MvvmCrossLibraries": "4.0.0-beta3",
+    "MvvmCross.HotTuna.Plugin.File": "4.0.0-beta3",
+    "MvvmCross.HotTuna.Plugin.ResourceLoader": "4.0.0-beta3",
+    "MvvmCross.HotTuna.Plugin.Visibility": "4.0.0-beta3",
+    "MvvmCross.HotTuna.Plugin.WebBrowser": "4.0.0-beta3"
+  },
+  "frameworks": {
+    "dotnet": {
+      "imports": "portable-net452+win81"
+    }
+  }
+}
