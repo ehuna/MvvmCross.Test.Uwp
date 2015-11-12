@@ -133,12 +133,11 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Test.NewCore\Test.NewCore.csproj">
-      <Project>{09ea8ab4-d72e-4bf1-8812-4634953a13eb}</Project>
-      <Name>Test.NewCore</Name>
+    <ProjectReference Include="..\Test.Core\Test.Core.csproj">
+      <Project>{8c04c749-b934-4c39-b071-189ff86c8905}</Project>
+      <Name>Test.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Page Include="Views\TestView.xaml">
       <SubType>Designer</SubType>

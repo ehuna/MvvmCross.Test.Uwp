@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.NewCore", "Test.NewCore\Test.NewCore.csproj", "{09EA8AB4-D72E-4BF1-8812-4634953A13EB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Uwp", "Test.Uwp\Test.Uwp.csproj", "{463A7380-8DC2-435C-B8BC-D2EA165F8E43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Core", "Test.Core\Test.Core.csproj", "{8C04C749-B934-4C39-B071-189FF86C8905}"
@@ -21,22 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Debug|ARM.Build.0 = Debug|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Debug|x64.Build.0 = Debug|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Debug|x86.Build.0 = Debug|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Release|ARM.ActiveCfg = Release|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Release|ARM.Build.0 = Release|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Release|x64.ActiveCfg = Release|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Release|x64.Build.0 = Release|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Release|x86.ActiveCfg = Release|Any CPU
-		{09EA8AB4-D72E-4BF1-8812-4634953A13EB}.Release|x86.Build.0 = Release|Any CPU
 		{463A7380-8DC2-435C-B8BC-D2EA165F8E43}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{463A7380-8DC2-435C-B8BC-D2EA165F8E43}.Debug|Any CPU.Build.0 = Debug|x64
 		{463A7380-8DC2-435C-B8BC-D2EA165F8E43}.Debug|Any CPU.Deploy.0 = Debug|x64

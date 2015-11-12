@@ -14,7 +14,7 @@ namespace Test.Uwp
 
         protected override IMvxApplication CreateApp()
         {
-            return new Test.NewCore.App();
+            return new Test.Core.App();
         }
 
         protected override IMvxTrace CreateDebugTrace()

@@ -4,7 +4,7 @@ namespace Test.Core.ViewModels
 {
     public class TestViewModel : MvxViewModel
     {
-        private string _myProperty1 = "This is ViewModel1";
+        private string _myProperty1 = "This is ViewModel1, MVVMCross Binding works!";
 
         public string MyProperty1
         {
