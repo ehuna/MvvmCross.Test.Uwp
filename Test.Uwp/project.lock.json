@@ -232,12 +232,15 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.0.0-beta3": {
+      "MvvmCross/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta5, )"
         }
       },
-      "MvvmCross.HotTuna.Binding/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Binding/4.0.0-beta5": {
+        "dependencies": {
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
+        },
         "compile": {
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         },
@@ -245,10 +248,7 @@
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         }
       },
-      "MvvmCross.HotTuna.CrossCore/4.0.0-beta3": {
-        "dependencies": {
-          "MvvmCross.HotTuna.Binding": "[4.0.0-beta3, )"
-        },
+      "MvvmCross.HotTuna.CrossCore/4.0.0-beta5": {
         "compile": {
           "lib/win81/Cirrious.CrossCore.dll": {},
           "lib/win81/Cirrious.CrossCore.WindowsCommon.dll": {},
@@ -260,9 +260,9 @@
           "lib/win81/Cirrious.MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta3": {
+      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/uap/Cirrious.MvvmCross.dll": {},
@@ -273,9 +273,9 @@
           "lib/uap/Cirrious.MvvmCross.WindowsUWP.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.File.dll": {},
@@ -286,9 +286,9 @@
           "lib/win81/MvvmCross.Plugins.File.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.ResourceLoader.dll": {},
@@ -299,9 +299,9 @@
           "lib/win81/MvvmCross.Plugins.ResourceLoader.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.Visibility.dll": {},
@@ -312,9 +312,9 @@
           "lib/win81/MvvmCross.Plugins.Visibility.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.WebBrowser.dll": {},
@@ -325,9 +325,10 @@
           "lib/win81/MvvmCross.Plugins.WebBrowser.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.StarterPack/4.0.0-beta3": {
+      "MvvmCross.HotTuna.StarterPack/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.Binding": "[4.0.0-beta5, )",
+          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta5, )"
         }
       },
       "System.AppContext/4.0.0": {
@@ -1939,12 +1940,15 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.0.0-beta3": {
+      "MvvmCross/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta5, )"
         }
       },
-      "MvvmCross.HotTuna.Binding/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Binding/4.0.0-beta5": {
+        "dependencies": {
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
+        },
         "compile": {
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         },
@@ -1952,10 +1956,7 @@
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         }
       },
-      "MvvmCross.HotTuna.CrossCore/4.0.0-beta3": {
-        "dependencies": {
-          "MvvmCross.HotTuna.Binding": "[4.0.0-beta3, )"
-        },
+      "MvvmCross.HotTuna.CrossCore/4.0.0-beta5": {
         "compile": {
           "lib/win81/Cirrious.CrossCore.dll": {},
           "lib/win81/Cirrious.CrossCore.WindowsCommon.dll": {},
@@ -1967,9 +1968,9 @@
           "lib/win81/Cirrious.MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta3": {
+      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/uap/Cirrious.MvvmCross.dll": {},
@@ -1980,9 +1981,9 @@
           "lib/uap/Cirrious.MvvmCross.WindowsUWP.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.File.dll": {},
@@ -1993,9 +1994,9 @@
           "lib/win81/MvvmCross.Plugins.File.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.ResourceLoader.dll": {},
@@ -2006,9 +2007,9 @@
           "lib/win81/MvvmCross.Plugins.ResourceLoader.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.Visibility.dll": {},
@@ -2019,9 +2020,9 @@
           "lib/win81/MvvmCross.Plugins.Visibility.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.WebBrowser.dll": {},
@@ -2032,9 +2033,10 @@
           "lib/win81/MvvmCross.Plugins.WebBrowser.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.StarterPack/4.0.0-beta3": {
+      "MvvmCross.HotTuna.StarterPack/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.Binding": "[4.0.0-beta5, )",
+          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta5, )"
         }
       },
       "System.AppContext/4.0.0": {
@@ -3679,12 +3681,15 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.0.0-beta3": {
+      "MvvmCross/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta5, )"
         }
       },
-      "MvvmCross.HotTuna.Binding/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Binding/4.0.0-beta5": {
+        "dependencies": {
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
+        },
         "compile": {
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         },
@@ -3692,10 +3697,7 @@
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         }
       },
-      "MvvmCross.HotTuna.CrossCore/4.0.0-beta3": {
-        "dependencies": {
-          "MvvmCross.HotTuna.Binding": "[4.0.0-beta3, )"
-        },
+      "MvvmCross.HotTuna.CrossCore/4.0.0-beta5": {
         "compile": {
           "lib/win81/Cirrious.CrossCore.dll": {},
           "lib/win81/Cirrious.CrossCore.WindowsCommon.dll": {},
@@ -3707,9 +3709,9 @@
           "lib/win81/Cirrious.MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta3": {
+      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/uap/Cirrious.MvvmCross.dll": {},
@@ -3720,9 +3722,9 @@
           "lib/uap/Cirrious.MvvmCross.WindowsUWP.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.File.dll": {},
@@ -3733,9 +3735,9 @@
           "lib/win81/MvvmCross.Plugins.File.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.ResourceLoader.dll": {},
@@ -3746,9 +3748,9 @@
           "lib/win81/MvvmCross.Plugins.ResourceLoader.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.Visibility.dll": {},
@@ -3759,9 +3761,9 @@
           "lib/win81/MvvmCross.Plugins.Visibility.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.WebBrowser.dll": {},
@@ -3772,9 +3774,10 @@
           "lib/win81/MvvmCross.Plugins.WebBrowser.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.StarterPack/4.0.0-beta3": {
+      "MvvmCross.HotTuna.StarterPack/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.Binding": "[4.0.0-beta5, )",
+          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta5, )"
         }
       },
       "System.AppContext/4.0.0": {
@@ -5424,12 +5427,15 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.0.0-beta3": {
+      "MvvmCross/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta5, )"
         }
       },
-      "MvvmCross.HotTuna.Binding/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Binding/4.0.0-beta5": {
+        "dependencies": {
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
+        },
         "compile": {
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         },
@@ -5437,10 +5443,7 @@
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         }
       },
-      "MvvmCross.HotTuna.CrossCore/4.0.0-beta3": {
-        "dependencies": {
-          "MvvmCross.HotTuna.Binding": "[4.0.0-beta3, )"
-        },
+      "MvvmCross.HotTuna.CrossCore/4.0.0-beta5": {
         "compile": {
           "lib/win81/Cirrious.CrossCore.dll": {},
           "lib/win81/Cirrious.CrossCore.WindowsCommon.dll": {},
@@ -5452,9 +5455,9 @@
           "lib/win81/Cirrious.MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta3": {
+      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/uap/Cirrious.MvvmCross.dll": {},
@@ -5465,9 +5468,9 @@
           "lib/uap/Cirrious.MvvmCross.WindowsUWP.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.File.dll": {},
@@ -5478,9 +5481,9 @@
           "lib/win81/MvvmCross.Plugins.File.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.ResourceLoader.dll": {},
@@ -5491,9 +5494,9 @@
           "lib/win81/MvvmCross.Plugins.ResourceLoader.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.Visibility.dll": {},
@@ -5504,9 +5507,9 @@
           "lib/win81/MvvmCross.Plugins.Visibility.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.WebBrowser.dll": {},
@@ -5517,9 +5520,10 @@
           "lib/win81/MvvmCross.Plugins.WebBrowser.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.StarterPack/4.0.0-beta3": {
+      "MvvmCross.HotTuna.StarterPack/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.Binding": "[4.0.0-beta5, )",
+          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta5, )"
         }
       },
       "System.AppContext/4.0.0": {
@@ -7164,12 +7168,15 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.0.0-beta3": {
+      "MvvmCross/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta5, )"
         }
       },
-      "MvvmCross.HotTuna.Binding/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Binding/4.0.0-beta5": {
+        "dependencies": {
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
+        },
         "compile": {
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         },
@@ -7177,10 +7184,7 @@
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         }
       },
-      "MvvmCross.HotTuna.CrossCore/4.0.0-beta3": {
-        "dependencies": {
-          "MvvmCross.HotTuna.Binding": "[4.0.0-beta3, )"
-        },
+      "MvvmCross.HotTuna.CrossCore/4.0.0-beta5": {
         "compile": {
           "lib/win81/Cirrious.CrossCore.dll": {},
           "lib/win81/Cirrious.CrossCore.WindowsCommon.dll": {},
@@ -7192,9 +7196,9 @@
           "lib/win81/Cirrious.MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta3": {
+      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/uap/Cirrious.MvvmCross.dll": {},
@@ -7205,9 +7209,9 @@
           "lib/uap/Cirrious.MvvmCross.WindowsUWP.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.File.dll": {},
@@ -7218,9 +7222,9 @@
           "lib/win81/MvvmCross.Plugins.File.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.ResourceLoader.dll": {},
@@ -7231,9 +7235,9 @@
           "lib/win81/MvvmCross.Plugins.ResourceLoader.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.Visibility.dll": {},
@@ -7244,9 +7248,9 @@
           "lib/win81/MvvmCross.Plugins.Visibility.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.WebBrowser.dll": {},
@@ -7257,9 +7261,10 @@
           "lib/win81/MvvmCross.Plugins.WebBrowser.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.StarterPack/4.0.0-beta3": {
+      "MvvmCross.HotTuna.StarterPack/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.Binding": "[4.0.0-beta5, )",
+          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta5, )"
         }
       },
       "System.AppContext/4.0.0": {
@@ -8909,12 +8914,15 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.0.0-beta3": {
+      "MvvmCross/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta5, )"
         }
       },
-      "MvvmCross.HotTuna.Binding/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Binding/4.0.0-beta5": {
+        "dependencies": {
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
+        },
         "compile": {
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         },
@@ -8922,10 +8930,7 @@
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         }
       },
-      "MvvmCross.HotTuna.CrossCore/4.0.0-beta3": {
-        "dependencies": {
-          "MvvmCross.HotTuna.Binding": "[4.0.0-beta3, )"
-        },
+      "MvvmCross.HotTuna.CrossCore/4.0.0-beta5": {
         "compile": {
           "lib/win81/Cirrious.CrossCore.dll": {},
           "lib/win81/Cirrious.CrossCore.WindowsCommon.dll": {},
@@ -8937,9 +8942,9 @@
           "lib/win81/Cirrious.MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta3": {
+      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/uap/Cirrious.MvvmCross.dll": {},
@@ -8950,9 +8955,9 @@
           "lib/uap/Cirrious.MvvmCross.WindowsUWP.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.File.dll": {},
@@ -8963,9 +8968,9 @@
           "lib/win81/MvvmCross.Plugins.File.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.ResourceLoader.dll": {},
@@ -8976,9 +8981,9 @@
           "lib/win81/MvvmCross.Plugins.ResourceLoader.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.Visibility.dll": {},
@@ -8989,9 +8994,9 @@
           "lib/win81/MvvmCross.Plugins.Visibility.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.WebBrowser.dll": {},
@@ -9002,9 +9007,10 @@
           "lib/win81/MvvmCross.Plugins.WebBrowser.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.StarterPack/4.0.0-beta3": {
+      "MvvmCross.HotTuna.StarterPack/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.Binding": "[4.0.0-beta5, )",
+          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta5, )"
         }
       },
       "System.AppContext/4.0.0": {
@@ -10649,12 +10655,15 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.0.0-beta3": {
+      "MvvmCross/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.StarterPack": "[4.0.0-beta5, )"
         }
       },
-      "MvvmCross.HotTuna.Binding/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Binding/4.0.0-beta5": {
+        "dependencies": {
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
+        },
         "compile": {
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         },
@@ -10662,10 +10671,7 @@
           "lib/netcore45/Cirrious.MvvmCross.Binding.dll": {}
         }
       },
-      "MvvmCross.HotTuna.CrossCore/4.0.0-beta3": {
-        "dependencies": {
-          "MvvmCross.HotTuna.Binding": "[4.0.0-beta3, )"
-        },
+      "MvvmCross.HotTuna.CrossCore/4.0.0-beta5": {
         "compile": {
           "lib/win81/Cirrious.CrossCore.dll": {},
           "lib/win81/Cirrious.CrossCore.WindowsCommon.dll": {},
@@ -10677,9 +10683,9 @@
           "lib/win81/Cirrious.MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta3": {
+      "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/uap/Cirrious.MvvmCross.dll": {},
@@ -10690,9 +10696,9 @@
           "lib/uap/Cirrious.MvvmCross.WindowsUWP.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.File/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.File.dll": {},
@@ -10703,9 +10709,9 @@
           "lib/win81/MvvmCross.Plugins.File.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.ResourceLoader.dll": {},
@@ -10716,9 +10722,9 @@
           "lib/win81/MvvmCross.Plugins.ResourceLoader.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.Visibility.dll": {},
@@ -10729,9 +10735,9 @@
           "lib/win81/MvvmCross.Plugins.Visibility.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta3": {
+      "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.CrossCore": "[4.0.0-beta5, )"
         },
         "compile": {
           "lib/win81/MvvmCross.Plugins.WebBrowser.dll": {},
@@ -10742,9 +10748,10 @@
           "lib/win81/MvvmCross.Plugins.WebBrowser.WindowsCommon.dll": {}
         }
       },
-      "MvvmCross.HotTuna.StarterPack/4.0.0-beta3": {
+      "MvvmCross.HotTuna.StarterPack/4.0.0-beta5": {
         "dependencies": {
-          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta3, )"
+          "MvvmCross.HotTuna.Binding": "[4.0.0-beta5, )",
+          "MvvmCross.HotTuna.MvvmCrossLibraries": "[4.0.0-beta5, )"
         }
       },
       "System.AppContext/4.0.0": {
@@ -12821,18 +12828,18 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "MvvmCross/4.0.0-beta3": {
-      "sha512": "HJWB1J3DekzK0qsjziwQ7z6n94SSzKnoqJXs8CANHDROaEXEnq0PEGjuRZ+c+B9jwoTs+hAWh9HCUOpvhI0QAw==",
+    "MvvmCross/4.0.0-beta5": {
+      "sha512": "n+Ys2mBWW4dZyfoya4cuaQ3JlDwJQ1d6xfhCXJ7Jx9Yl8Ybxbje+w5hHgzhXVG1y08e0cUDdN5jOyYT7ujT6QQ==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
         "_rels/.rels",
         "MvvmCross.nuspec",
-        "package/services/metadata/core-properties/2d97ec83958245f29061f08b304722b4.psmdcp"
+        "package/services/metadata/core-properties/c00beb91a80546c2a8ece799bef656b3.psmdcp"
       ]
     },
-    "MvvmCross.HotTuna.Binding/4.0.0-beta3": {
-      "sha512": "1fATO1zZjpKZQu8ijw9kMeOwVmuhax/Ijg3zF97VkYU1tb/XHCDwlpWm3EOB1QiqDzjWM72/g53zQHyIgtB+Ig==",
+    "MvvmCross.HotTuna.Binding/4.0.0-beta5": {
+      "sha512": "MhGgKqoPdY5ugXDnEjgXtwX6Bt13eac9cq9CE018zMUrlgvteusyQpile6aaHa9TcUo4XQSH3S+XmH8/CP7ADg==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12847,11 +12854,11 @@
         "lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.dll",
         "lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.Touch.dll",
         "MvvmCross.HotTuna.Binding.nuspec",
-        "package/services/metadata/core-properties/a9e7dde1e2a042b6976c3f7b78bb7723.psmdcp"
+        "package/services/metadata/core-properties/d9bfa91b671b46709390cce32d8fc5ba.psmdcp"
       ]
     },
-    "MvvmCross.HotTuna.CrossCore/4.0.0-beta3": {
-      "sha512": "OIB2h/JZb2rnicOi+0+1zm2OqnYzYyzFihDHAZTZinrZ190fCLQneFwYezaHMZEn+G87NVt+C7MDihIidC/Xtg==",
+    "MvvmCross.HotTuna.CrossCore/4.0.0-beta5": {
+      "sha512": "SqbWkxaMpgTDiWoFClGDLa1ywH4bfMA8DND/SeXMvRcWCsfya+iXdksfhAIuYzAmIPuyCK/FRH2tERYGE+Z7Ig==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12889,11 +12896,11 @@
         "lib/Xamarin.iOS10/Cirrious.CrossCore.Touch.dll",
         "lib/Xamarin.iOS10/Cirrious.MvvmCross.Localization.dll",
         "MvvmCross.HotTuna.CrossCore.nuspec",
-        "package/services/metadata/core-properties/76ee352521764b01bb6dee15cfba6ea7.psmdcp"
+        "package/services/metadata/core-properties/fd65cdde4e43403ba05a4a038d22a934.psmdcp"
       ]
     },
-    "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta3": {
-      "sha512": "tpZwmbrxURpefAJKjAk/mCeq/W7l2SqEjehCDc4Tb9mLcvatuJDNRdBuxBd2QjtgAHSBS2L8tDvNKvSWONNpxw==",
+    "MvvmCross.HotTuna.MvvmCrossLibraries/4.0.0-beta5": {
+      "sha512": "FDwwID+gTgIWTyT9EbGKwfe5rDlnxg03iqzR5m81twzzjrSGWLc+PHsdoeaEcDG12RwreMimaws7+XtKvgKDrg==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12904,6 +12911,8 @@
         "lib/net45/Cirrious.MvvmCross.dll",
         "lib/net45/Cirrious.MvvmCross.Wpf.dll",
         "lib/netcore45/Cirrious.MvvmCross.dll",
+        "lib/netcore45/Cirrious.MvvmCross.WindowsStore.dll",
+        "lib/netcore45/Cirrious.MvvmCross.WindowsStore.pri",
         "lib/portable-win+net45+wp8+win8+wpa81/Cirrious.MvvmCross.dll",
         "lib/portable-win81+wpa81/Cirrious.MvvmCross.dll",
         "lib/portable-win81+wpa81/Cirrious.MvvmCross.WindowsCommon.dll",
@@ -12923,11 +12932,11 @@
         "lib/Xamarin.iOS10/Cirrious.MvvmCross.dll",
         "lib/Xamarin.iOS10/Cirrious.MvvmCross.Touch.dll",
         "MvvmCross.HotTuna.MvvmCrossLibraries.nuspec",
-        "package/services/metadata/core-properties/1b2ecd52152f4ba6a0eaf3d0c1b3486d.psmdcp"
+        "package/services/metadata/core-properties/a8006af1964b4cb1a1c4a23736567b39.psmdcp"
       ]
     },
-    "MvvmCross.HotTuna.Plugin.File/4.0.0-beta3": {
-      "sha512": "ZdhNRRv+rMccscog/MonnPj40mUI5wKWQuPAQGWfBvTT7evCUiLKdhQ7oGG7grS+S7RlSIPYDQe+urJhvybLnA==",
+    "MvvmCross.HotTuna.Plugin.File/4.0.0-beta5": {
+      "sha512": "3ToPyC6EE/tkOxDonU1TdaF7GcQLOgewA/rN51aLABFw5o+a0Y6Hrqr6SoSMyXATOf90ywjZ0LqZ1MS6u01C5Q==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12960,11 +12969,11 @@
         "lib/Xamarin.iOS10/MvvmCross.Plugins.File.dll",
         "lib/Xamarin.iOS10/MvvmCross.Plugins.File.Touch.dll",
         "MvvmCross.HotTuna.Plugin.File.nuspec",
-        "package/services/metadata/core-properties/9a713b0a52a144f6b27f2720315df0a3.psmdcp"
+        "package/services/metadata/core-properties/e739a8d7e71b4cb3953589143346bff4.psmdcp"
       ]
     },
-    "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta3": {
-      "sha512": "9r4Y2OJpFj9qtqHzndNnXqaoa6erR4y+Tb+fPYhfMEHFOOHBlvkXI7pv8YfaGe44Xx2USnpOaGrarwI4DgMKDg==",
+    "MvvmCross.HotTuna.Plugin.ResourceLoader/4.0.0-beta5": {
+      "sha512": "w/wx73qrlROf4gvpOSW2Z2RcixspzbZH1RTzu4WCQGvR2DIhfVJRZVnnsvdujCSt3nxLxiSzT9iszAk6Y3gSQA==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12999,11 +13008,11 @@
         "lib/Xamarin.iOS10/MvvmCross.Plugins.ResourceLoader.dll",
         "lib/Xamarin.iOS10/MvvmCross.Plugins.ResourceLoader.Touch.dll",
         "MvvmCross.HotTuna.Plugin.ResourceLoader.nuspec",
-        "package/services/metadata/core-properties/125994d8499a4e23acdfd81d58e3cfca.psmdcp"
+        "package/services/metadata/core-properties/bc0ac37e8bef4c4fa2f062eef353c05f.psmdcp"
       ]
     },
-    "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta3": {
-      "sha512": "/53ZwtJqU5ZuYJbQ2PQOOH5Iq/e7zXjaBI8ZAgEVTuZEfx93kkf3ti1l17TSFjtb3FNm4HTatq6ryqUdWh5GHg==",
+    "MvvmCross.HotTuna.Plugin.Visibility/4.0.0-beta5": {
+      "sha512": "uIdvhn1KKOywZT4YHW1HeSjJSWQCOaLGcoP+ewRt6O5l0ifACf+oOo0VTOh0PY35MUfBG0hetr1mydlARcUfJw==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -13038,11 +13047,11 @@
         "lib/Xamarin.iOS10/MvvmCross.Plugins.Visibility.dll",
         "lib/Xamarin.iOS10/MvvmCross.Plugins.Visibility.Touch.dll",
         "MvvmCross.HotTuna.Plugin.Visibility.nuspec",
-        "package/services/metadata/core-properties/c8bf3acc53b045c7a1aba9641275ec47.psmdcp"
+        "package/services/metadata/core-properties/401eed32726c444ab38821aa515efba4.psmdcp"
       ]
     },
-    "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta3": {
-      "sha512": "x/IOsk/ZUdd54WAdrpZb57h6pkMNkFAAbP8poWBjFU/W51W8KtUJBSVIrZwRkIonoKOygVWbqcitTZE29X+edA==",
+    "MvvmCross.HotTuna.Plugin.WebBrowser/4.0.0-beta5": {
+      "sha512": "eY4w3txgA8VDkjDo43aOQnsrzbNhm7ghj6K9xc/Y1vdfMe87/o1rl1sdp93hfMt+rIGDxYle69OISfcKV1wkKw==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -13074,11 +13083,11 @@
         "lib/Xamarin.iOS10/MvvmCross.Plugins.WebBrowser.dll",
         "lib/Xamarin.iOS10/MvvmCross.Plugins.WebBrowser.Touch.dll",
         "MvvmCross.HotTuna.Plugin.WebBrowser.nuspec",
-        "package/services/metadata/core-properties/ce9da581fe3c48d992cf070d9746f6d1.psmdcp"
+        "package/services/metadata/core-properties/baaaed1f70c44d60aa965754390a8503.psmdcp"
       ]
     },
-    "MvvmCross.HotTuna.StarterPack/4.0.0-beta3": {
-      "sha512": "Llt4Bklh6TechtdrNNV/BLhgKdtt4Jj6F9s5ZVhgS9Kwf0NE4Bw9D2IUbjN/8i6RfbvtrxUpwKo+EXZnSTDM1Q==",
+    "MvvmCross.HotTuna.StarterPack/4.0.0-beta5": {
+      "sha512": "BnuytIRd9FwougznNWPDv/BptAInx1XNRkj02FtSCMtOoQdTt0O3OuyHTfXsfjCbsYNfCT8R5Bps44sksQjMsg==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -13135,7 +13144,7 @@
         "content/Xamarin.iOS10/ToDo-MvvmCross/_ Touch UI.txt",
         "content/Xamarin.iOS10/Views/FirstView.cs.pp",
         "MvvmCross.HotTuna.StarterPack.nuspec",
-        "package/services/metadata/core-properties/1f52068dfdfb459e85f5f584b2436944.psmdcp"
+        "package/services/metadata/core-properties/8a48ae461dff4b3b8bf40ae5c67e9150.psmdcp"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -15840,13 +15849,13 @@
       "Microsoft.ApplicationInsights.PersistenceChannel >= 1.0.0",
       "Microsoft.ApplicationInsights.WindowsApps >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
-      "MvvmCross >= 4.0.0-beta3",
-      "MvvmCross.HotTuna.CrossCore >= 4.0.0-beta3",
-      "MvvmCross.HotTuna.MvvmCrossLibraries >= 4.0.0-beta3",
-      "MvvmCross.HotTuna.Plugin.File >= 4.0.0-beta3",
-      "MvvmCross.HotTuna.Plugin.ResourceLoader >= 4.0.0-beta3",
-      "MvvmCross.HotTuna.Plugin.Visibility >= 4.0.0-beta3",
-      "MvvmCross.HotTuna.Plugin.WebBrowser >= 4.0.0-beta3"
+      "MvvmCross >= 4.0.0-beta5",
+      "MvvmCross.HotTuna.CrossCore >= 4.0.0-beta5",
+      "MvvmCross.HotTuna.MvvmCrossLibraries >= 4.0.0-beta5",
+      "MvvmCross.HotTuna.Plugin.File >= 4.0.0-beta5",
+      "MvvmCross.HotTuna.Plugin.ResourceLoader >= 4.0.0-beta5",
+      "MvvmCross.HotTuna.Plugin.Visibility >= 4.0.0-beta5",
+      "MvvmCross.HotTuna.Plugin.WebBrowser >= 4.0.0-beta5"
     ],
     "UAP,Version=v10.0": []
   }
